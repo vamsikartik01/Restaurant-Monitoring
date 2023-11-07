@@ -1,0 +1,24 @@
+{
+    "database":{
+        "host": "localhost",
+        "port":"3300",
+        "username": "root",
+        "password": "password",
+        "database_name": "monitoring"
+    },
+    "spreadsheets": {
+        "store_status" : "csv/store_status.csv",
+        "menu_hours" : "csv/menu_hours.csv",
+        "timezones" : "csv/timezones.csv"
+    },
+    "redis": {
+        "host": "localhost",
+        "port": "6300",
+        "username": "redis"
+    },
+    "app_host":"http://localhost:5000",
+    "debug": true,
+    "app_batch_size": 100,
+    "app_chunk_size": 1000,
+    "prod" : false
+}
