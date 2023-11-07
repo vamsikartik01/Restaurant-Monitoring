@@ -6,7 +6,7 @@ from app.services.reports.report import start_report
 from celery import Celery
 
 # trigger report generation concurrently
-@app.route('/trigger_report', methods=['GET'])
+@app.route('/trigger_report', methods=['POST'])
 def trigger_report():   
     report_id = generate_ssid()
     report = Reports(report_id = report_id)
