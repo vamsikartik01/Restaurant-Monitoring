@@ -115,7 +115,7 @@ Note: The data we have given is a static data set, so you can hard code the curr
 
 ## Architecture
 
-![Architecture.png](https://drive.google.com/file/d/1mgxddDCmoUj8TpYimK7PAH8KY4w4xzXu/view?usp=sharing)
+![Architecture](arch/architecture.png)
 
 1. Flask APP
 2. Data Poling worker
